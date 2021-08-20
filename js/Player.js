@@ -35,5 +35,10 @@ class Player {
     });
   }
 
-  static getPlayersInfo() {}
+  static getPlayersInfo() {
+    var playerInforRef=database.ref("players");
+    playerInforRef.on("value",data=>{
+      allPlayers=data.val()
+    })
+  }
 }

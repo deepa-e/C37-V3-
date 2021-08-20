@@ -1,0 +1,16 @@
+{
+  "gameState" : 1,
+  "playerCount" : 2,
+  "players" : {
+    "player1" : {
+      "name" : "e",
+      "positionX" : 412,
+      "positionY" : 0
+    },
+    "player2" : {
+      "name" : "f",
+      "positionX" : 612,
+      "positionY" : 0
+    }
+  }
+}
